@@ -284,7 +284,7 @@ public class ModernClickGui extends GuiScreen {
     
     private void drawWatermark(int x, int y, int width, int height, float alpha) {
         int watermarkColor = (int) (alpha * 0x80) << 24 | 0xFF8C00;
-        FontUtil.normal.drawCenteredSmoothString("RAVEN BC", x + width/2, y + height - 20, watermarkColor);
+        FontUtil.normal.drawCenteredSmoothString("RAVEN B++", x + width/2, y + height - 20, watermarkColor);
     }
     
     private void drawEnhancedScrollbar(int x, int y, int width, int height, float alpha) {

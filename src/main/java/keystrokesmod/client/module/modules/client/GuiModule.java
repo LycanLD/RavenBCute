@@ -29,7 +29,7 @@ public class GuiModule extends Module {
         this.registerSetting(reset = new TickSetting("Reset position", false));
         this.registerSetting(notifications = new TickSetting("Notifications", false));
         this.registerSetting(rainbowNotification = new TickSetting("Reset position", false));
-        this.registerSetting(animeGirl = new TickSetting("Anime Girl", true));
+        this.registerSetting(animeGirl = new TickSetting("Anime Girl", false));
         this.registerSetting(animeGirlSize = new SliderSetting("Anime Girl Size", 202, 20, 500, 5));
         this.registerSetting(animeGirlOpacity = new SliderSetting("Anime Girl Opacity", 80, 10, 100, 5));
         this.registerSetting(preset = new ComboSetting("Preset", Preset.PlusPlus));
